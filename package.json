@@ -1,0 +1,29 @@
+{
+  "name": "forge-squirrel-mac",
+  "version": "0.1.0",
+  "main": "./dist/index.js",
+  "types": "./types/index.d.ts",
+  "exports": {
+    "./maker": "./dist/maker.js",
+    "./plugin": "./dist/plugin.js"
+  },
+  "files": [
+    "dist/*",
+    "types/*",
+    "yarn.lock"
+  ],
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "@electron-forge/core": "^6.0.0-beta.63",
+    "@electron-forge/maker-base": "^6.0.0-beta.63",
+    "@electron-forge/maker-zip": "^6.0.0-beta.63",
+    "@electron-forge/plugin-base": "^6.0.0-beta.63",
+    "axios": "^0.26.0",
+    "semver": "^7.3.5"
+  },
+  "devDependencies": {
+    "@types/semver": "^7.3.9",
+    "typescript": "^4.5.5"
+  }
+}
