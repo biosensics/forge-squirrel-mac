@@ -11,7 +11,7 @@ The Maker variant will also generate the zip package required for Squirrel.Mac t
         // ... (recommended to use some other maker for
         // initial distribution to users, such as dmg)
         {
-            name: "forge-squirrel-mac/plugin",
+            name: "forge-squirrel-mac/maker",
             config: {
                 releasesUrl: "http://remote.releases.com/path",
                 overwriteExisting: true, // optional
