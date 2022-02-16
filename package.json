@@ -9,13 +9,13 @@
   },
   "files": [
     "dist/*",
-    "types/*",
-    "yarn.lock"
+    "types/*"
   ],
   "license": "MIT",
   "scripts": {
     "make": "tsc",
-    "prepare": "tsc"
+    "prepare": "tsc",
+    "prepack": "tsc"
   },
   "dependencies": {
     "@electron-forge/core": "^6.0.0-beta.63",
