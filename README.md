@@ -1,3 +1,16 @@
+<a href="https://github.com/biosensics/forge-squirrel-mac/blob/master/LICENSE">
+  <img src="https://img.shields.io/github/license/biosensics/forge-squirrel-mac" alt="npm-version" />
+</a>
+<a href="https://www.npmjs.com/package/@biosensics/forge-squirrel-mac">
+  <img src="https://img.shields.io/npm/v/@biosensics/forge-squirrel-mac" alt="license" />
+</a>
+<a href="https://github.com/biosensics/forge-squirrel-mac">
+  <img src="https://img.shields.io/badge/repo--blue?logo=GitHub" alt="license" />
+</a>
+<a href="https://github.com/biosensics/forge-squirrel-mac/issues">
+  <img src="https://img.shields.io/github/issues/biosensics/forge-squirrel-mac?logo=github" alt="license" />
+</a>
+
 # forge-squirrel-mac
 A package containing both a Maker and Plugin for electron-forge that automatically generates a JSON file compatible with Squirrel.Mac for static hosting on services such as S3.  
 The Maker variant will also generate the zip package required for Squirrel.Mac to download the update.
@@ -13,7 +26,7 @@ This package was originally designed for use with `@electron-forge/publisher-s3`
         // ... (recommended to use some other maker for
         // initial distribution to users, such as dmg)
         {
-            name: "forge-squirrel-mac/maker",
+            name: "@biosensics/forge-squirrel-mac/maker",
             config: {
                 releasesUrl: "http://remote.releases.com/path",
                 overwriteExisting: true, // optional
@@ -42,7 +55,7 @@ This package was originally designed for use with `@electron-forge/publisher-s3`
     // ...
     plugins: [
         [
-            "forge-squirrel-mac/plugin",
+            "@biosensics/forge-squirrel-mac/plugin",
             {
                 releasesUrl: "http://remote.releases.com/path",
                 overwriteExisting: true, // optional

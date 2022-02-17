@@ -1,6 +1,6 @@
 {
   "name": "@biosensics/forge-squirrel-mac",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A plugin or maker for electron-forge that can generate a Squirrel.Mac static-hosted JSON file.",
   "keywords": ["electron-forge", "macos", "squirrel.mac", "electron", "automatic", "updates", "autoupdate"],
   "homepage": "https://github.com/biosensics/forge-squirrel-mac#readme",
