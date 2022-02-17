@@ -1,5 +1,5 @@
 {
-  "name": "forge-squirrel-mac",
+  "name": "@biosensics/forge-squirrel-mac",
   "version": "0.1.0",
   "main": "./dist/index.js",
   "types": "./types/index.d.ts",

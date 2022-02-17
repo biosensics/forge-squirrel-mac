@@ -5,6 +5,21 @@ __metadata:
   version: 5
   cacheKey: 8
 
+"@biosensics/forge-squirrel-mac@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "@biosensics/forge-squirrel-mac@workspace:."
+  dependencies:
+    "@electron-forge/core": ^6.0.0-beta.63
+    "@electron-forge/maker-base": ^6.0.0-beta.63
+    "@electron-forge/maker-zip": ^6.0.0-beta.63
+    "@electron-forge/plugin-base": ^6.0.0-beta.63
+    "@types/semver": ^7.3.9
+    axios: ^0.26.0
+    semver: ^7.3.5
+    typescript: ^4.5.5
+  languageName: unknown
+  linkType: soft
+
 "@electron-forge/async-ora@npm:6.0.0-beta.63":
   version: 6.0.0-beta.63
   resolution: "@electron-forge/async-ora@npm:6.0.0-beta.63"
@@ -1567,21 +1582,6 @@ __metadata:
   checksum: 766ae6e220f5fe23676bb4c6a99387cec5b7b62ceb99e10923376e27bfea72f3c3aeec2ba5f45f3f7ba65d6616965aa7c20b15002b6860833bb6e394dea546a8
   languageName: node
   linkType: hard
-
-"forge-squirrel-mac@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "forge-squirrel-mac@workspace:."
-  dependencies:
-    "@electron-forge/core": ^6.0.0-beta.63
-    "@electron-forge/maker-base": ^6.0.0-beta.63
-    "@electron-forge/maker-zip": ^6.0.0-beta.63
-    "@electron-forge/plugin-base": ^6.0.0-beta.63
-    "@types/semver": ^7.3.9
-    axios: ^0.26.0
-    semver: ^7.3.5
-    typescript: ^4.5.5
-  languageName: unknown
-  linkType: soft
 
 "form-data@npm:~2.3.2":
   version: 2.3.3
